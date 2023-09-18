@@ -1,0 +1,13 @@
+.header{
+    @apply flex justify-between items-center my-5;
+}
+
+.menu{
+    @apply flex gap-5;
+    a{
+        @apply text-white text-sm font-light;
+        :hover{
+            @apply font-medium text-red-700;
+        }
+    }
+}
